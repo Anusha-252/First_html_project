@@ -17,7 +17,7 @@
 }
 .nav{
     display: flex;
-    width:1366px ;
+    width:100% ;
 
 }
 .nav_left{
@@ -73,38 +73,38 @@
     background: #ccc;
   }
   .container{
-      width: 1366px;
+      width: 100%;
       height: 500px; 
       background-color: brown;
 
   }
   .row1{
-      width: 1366px;
+      width: 100%;
       height: 500px;
       /* background-color: aqua; */
   }
   .col1{
       float: left;
       /* background-color: chartreuse; */
-      width: 455px;
+      width: 33.33%;
       height: 500px;
   }
   .col2{
       /* background-color: chocolate; */
       float: left;
-     width: 455.33px;
+     width: 33.33%;
      height: 500px;
   }
   .col3{
       float: left;
-      width: 455.33px;
+      width: 33.33%;
       height: 500px;
   }
 
   .container img{
     padding-left: 20px 20px;
     height: 500px;
-    width: 455.33px;
+    width: 100%;
 }
 .text{
     background-color: darkgrey;
@@ -120,7 +120,7 @@
 .one{
     height:200px;
     text-align: center;
-    background-color: rgb(54, 51, 58);
+    background-color: rgb(203, 187, 223);
     border: double;
     margin-left:70px;
     margin-right: 70px;
@@ -137,18 +137,18 @@
 
 }
 .two{
-    width:1366px;
+    width:100%;
     
 }
     
 
  .row2{
      /* width:1366px; */
-     height:405px;
-     background-color: rgb(49, 56, 56);
+     height:480px;
+     background-color: rgb(203, 187, 223);
      padding-left: 479px;
      padding-right: 40px;
-     border: 2px solid rgb(56, 53, 53);
+     /* border: 2px solid rgb(56, 53, 53); */
      /* background: url('E:\website\img\OIP.jpg'); */
     
 }
@@ -157,7 +157,7 @@
     width:383px;
     padding-left: 40px;
     /* background-image: -moz-radial-gradient(); */
-    border:2px solid;
+    border :outset;
     justify-content: center;
     height:400px;
   
@@ -185,9 +185,7 @@
 }
 .three{
     width: 100%;
-    background-color: rgb(194, 191, 174);
-    border:2px solid;
-    border-radius: 2px;
+    background-color: rgb(203, 187, 223);
     margin-top: 20px;
     /* display: flex; */
     height:900px;
@@ -208,8 +206,9 @@
 }
     
 .card{
-    padding:10px;
+    padding:2px;
     width:350px;
+    border: outset;
     
 }
 .card_outer{
@@ -240,7 +239,8 @@
 }
 .four h1{
     text-align: center;
-    color: rgb(49, 70, 49);
+    color: rgb(8, 8, 8);
+    font-size: 40px;
 }
   
 
